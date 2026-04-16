@@ -1,8 +1,8 @@
 name: Staging CI (Batched)
 
 on:
-  schedule:
-    - cron: "0 * * * *"            # Every 60 minutes
+  # schedule:
+  #   - cron: "0 * * * *"            # Every 60 minutes
   workflow_dispatch:
     inputs:
       force:
